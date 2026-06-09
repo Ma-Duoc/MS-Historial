@@ -25,6 +25,7 @@ public class HistorialMedicoDto {
     private String diagnostico;
     private String tratamiento;
     private String examen;
+    private String estado;
 
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaActualizacion;

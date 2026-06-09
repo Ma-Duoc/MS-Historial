@@ -42,6 +42,9 @@ public class HistorialMedico {
     @Column(name = "fecha_actualizacion")
     private LocalDateTime fechaActualizacion;
 
+    @Column(name = "Estado", nullable = false)
+    private String estado;
+
     @PrePersist
     protected void onCreate() {
         fechaCreacion = LocalDateTime.now();

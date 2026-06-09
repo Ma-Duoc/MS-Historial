@@ -161,9 +161,9 @@ public class HistorialMedicoService {
                 h.getDiagnostico(),
                 h.getTratamiento(),
                 h.getExamen(),
+                h.getEstado(),
                 h.getFechaCreacion(),
-                h.getFechaActualizacion()
-        );
+                h.getFechaActualizacion());
     }
 
     private HistorialMedico convertToEntity(HistorialMedicoDto dto) {
@@ -174,6 +174,7 @@ public class HistorialMedicoService {
         h.setDiagnostico(dto.getDiagnostico());
         h.setTratamiento(dto.getTratamiento());
         h.setExamen(dto.getExamen());
+        h.setEstado(dto.getEstado());
         return h;
     }
 

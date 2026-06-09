@@ -13,7 +13,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/historial")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class HistorialController {
 
     private final HistorialMedicoService historialMedicoService;

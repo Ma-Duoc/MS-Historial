@@ -93,4 +93,4 @@ public class HistorialController {
         historialMedicoService.eliminarHistorial(id);
         return ResponseEntity.noContent().build();
     }
-}
+}   
